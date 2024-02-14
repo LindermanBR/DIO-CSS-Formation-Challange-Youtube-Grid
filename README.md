@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-[Link do Deploy](https://lindermanbr.github.io/DIO-CSS-Formation-Challange-Youtube-Clone/)
+[Link do Deploy](https://lindermanbr.github.io/DIO-CSS-Formation-Challange-Youtube-Grid/)
 
 Projeto desenvolvido para demonstrar as habilidades adquiridas na formação de CSS da DIO.
 
