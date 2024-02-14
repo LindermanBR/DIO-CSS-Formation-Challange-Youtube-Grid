@@ -1,0 +1,133 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.svg-icon {
+  width: 24px;
+  height: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu-left {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 146px;
+}
+
+.header-menu-center {
+  display: flex;
+  align-items: center;
+}
+
+.header-menu-center input {
+  width: 348px;
+  height: 40px;
+  border: 2px solid lightgray;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f8f8f8;
+  padding: 1px;
+  border: 2px solid lightgray;
+  border-left: none;
+}
+
+.header-menu-right {
+  width: Hug (130px);
+  height: Hug (34px);
+  gap: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.avatar-img {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+main {
+  margin-top: 20px;
+  width: auto;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar li {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.sidebar li img {
+  margin: 10px 0;
+  padding-right: 10px;
+}
+.main-content-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+
+.video-container {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+.video-thumb {
+  width: 250px;
+  height: 140px;
+}
+
+.video-data {
+  margin: 25px;
+  width: 250px;
+  display: flex;
+}
+.channel-avatar {
+  width: 42px;
+  height: 42px;
+  margin-right: 5px;
+}
+.video-info p {
+  margin: 0;
+  padding: 0;
+}
+.video-info h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.video-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+.video-views .video-date {
+  color: gray;
+  font-size: 12px;
+}
